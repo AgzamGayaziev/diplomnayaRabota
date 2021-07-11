@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Landing - Forty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+      
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<header id="header" class="alt">
+					<a href="index.html" class="logo"><strong>Secret_room</strong> <span>тайное_не_станет_явным</span></a>
+					<nav>
+						<a href="#menu">Меню</a>
+					</nav>
+				</header>
+
+			<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="aes.html">AES</a></li>
+						<li><a href="rabbit.html">Rabbit</a></li>
+						
+						<li><a href="rsa.html">RSA</a></li>
+						
+					</ul>
+					
+				</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>RC4</h1>
+							</header>
+							<div class="content">
+								<p>является потоковым шифром (stream cipher), что означает, что каждый символ открытого (незашифрованного) текста будет зашифрован в зависимости от двух параметров: ключа и положения символа в открытом тексте</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Зашифруй свое сообщение</h2>
+									</header>
+                                    <section>
+                                        <form method="post" action="#">
+                                            <div class="fields">
+                                                <div class="field">
+                                                    <label for="message">Вставь сообщение</label>
+                                                    <textarea name="message" id="message_rc4" rows="6">Мое сообщение</textarea>
+                                                </div>
+                                                <div class="field">
+                                                    <label for="crypt">Получи шифр</label>
+                                                    <textarea name="message" id="message_rc4-crypt" rows="6"></textarea>
+                                                </div>
+                                            </div>
+                                            <ul class="actions">
+                                                <li><input type="button" value="Зашифровать" class="primary" id="button_rc4-crypt" /></li>
+                                                <li><input type="reset" value="Очистить" /></li>
+                                            </ul>
+                                        </form>
+                                    </section>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Расшифруй свое сообщение</h3>
+											</header>
+                                            <section>
+                                                <form method="post" action="#">
+                                                    <div class="fields">
+                                                        <div class="field">
+                                                            <label for="message">Вставь шифр</label>
+                                                            <textarea name="message" id="message_rc4-message--crypt" rows="6">U2FsdGVkX1/4SsKU9+6H2T/oYiCY0Nf3Wa8PeTur2dr7qj0v5bSf1U+t3z9P2n1d</textarea>
+                                                        </div>
+                                                        <div class="field">
+                                                            <label for="crypt">Получи сообщение</label>
+                                                            <textarea name="message" id="message_rc4-decrypt" rows="6"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <ul class="actions">
+                                                        <li><input type="button" value="Расшифровать" class="primary" id="button_rc4-decrypt" /></li>
+                                                        <li><input type="reset" value="Очистить" /></li>
+                                                    </ul>
+                                                </form>
+                                            </section>
+											<ul class="actions">
+												<li><a href="https://ru.wikipedia.org/wiki/RC4" class="button">Узнать больше</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+						
+								<section>
+								
+									
+								</section>
+							</section>
+
+
+				<!-- Contact -->
+				<section>
+					<header class="major">
+						<h2>Обратная связь</h2>
+					</header>
+					</section>
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Имя</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Сообщение</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Отправить сообщение" class="primary" /></li>
+										<li><input type="reset" value="Очистить" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">agzamazga@gmail.com</a>
+									</div>
+								</section>
+								
+								
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Secret_room</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="bundle.js" ></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
